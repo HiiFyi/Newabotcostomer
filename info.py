@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7348205141').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/onefighterarmy") # ADMIN USERNAME
+USERNAME = environ.get('USERNAME', "http://t.me/ZaraflixAdmin_Bot") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002299064076'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+tTGXrEycpI85ZTM1')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002616652773').split()]
@@ -81,7 +81,7 @@ REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 FILE_AUTO_DEL_TIMER = int(environ.get('FILE_AUTO_DEL_TIMER', '600'))
 AUTO_FILTER = is_enabled('AUTO_FILTER', True)
 IS_PM_SEARCH = is_enabled('IS_PM_SEARCH', False)
-IS_SEND_MOVIE_UPDATE = is_enabled('IS_SEND_MOVIE_UPDATE', True) # Don't Change It ( If You Want To Turn It On Then Turn It On By Commands) We Suggest You To Make It Turn Off If You Are Indexing Files First Time.
+IS_SEND_MOVIE_UPDATE = is_enabled('IS_SEND_MOVIE_UPDATE', False) # Don't Change It ( If You Want To Turn It On Then Turn It On By Commands) We Suggest You To Make It Turn Off If You Are Indexing Files First Time.
 PORT = environ.get('PORT', '5000')
 MAX_BTN = int(environ.get('MAX_BTN', '8'))
 AUTO_DELETE = is_enabled('AUTO_DELETE', True)
@@ -97,7 +97,7 @@ LINK_MODE = is_enabled('LINK_MODE', False)
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or Flase
+STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
 # Online Stream and Download
 
 MULTI_CLIENT = False
