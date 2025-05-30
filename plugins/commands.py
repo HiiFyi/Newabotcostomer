@@ -188,9 +188,9 @@ async def start(client:Client, message):
                        #     InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ 📈', callback_data="trending")
                         ]] 
                         reply_markup = InlineKeyboardMarkup(buttons)
-                        m=await message.reply_sticker("CAACAgQAAxkBAAEBTvtoODF02IGNXeT2LI0uq5nGq_E3YwACMgMAAoY5uSA7pG7dj7DpjDYE") 
-                        await asyncio.sleep(1)
-                        await m.delete()
+                     #   m=await message.reply_sticker("CAACAgQAAxkBAAEBTvtoODF02IGNXeT2LI0uq5nGq_E3YwACMgMAAoY5uSA7pG7dj7DpjDYE") 
+                     #   await asyncio.sleep(1)
+                    #    await m.delete()
                         await message.reply_photo(photo=random.choice(START_IMG), caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
                             reply_markup=reply_markup,
                             parse_mode=enums.ParseMode.HTML)
@@ -218,9 +218,9 @@ async def start(client:Client, message):
                       #      InlineKeyboardButton('Tᴏᴘ Tʀᴇɴᴅɪɴɢ 📈', callback_data="trending")
                         ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgQAAxkBAAEn9_ZmGp1uf1a38UrDhitnjOOqL1oG3gAC9hAAAlC74FPEm2DxqNeOmB4E") 
-        await asyncio.sleep(1)
-        await m.delete()
+     #   m=await message.reply_sticker("CAACAgQAAxkBAAEn9_ZmGp1uf1a38UrDhitnjOOqL1oG3gAC9hAAAlC74FPEm2DxqNeOmB4E") 
+     #   await asyncio.sleep(1)
+     #   await m.delete()
         await message.reply_photo(photo=random.choice(START_IMG), caption=script.START_TXT.format(message.from_user.mention, get_status(), message.from_user.id),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
