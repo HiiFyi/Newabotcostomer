@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', '0a59a27d954ed13544c59248e47fd308')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7348205141').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7259766556 7348205141').split()]
 USERNAME = environ.get('USERNAME', "http://t.me/ZaraflixAdmin_Bot") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002299064076'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+tTGXrEycpI85ZTM1')
