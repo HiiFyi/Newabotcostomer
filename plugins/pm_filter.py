@@ -916,7 +916,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
               InlineKeyboardButton('Iᴍᴀɢᴇ Tᴏ Lɪɴᴋ', callback_data='telegraph'),
               ], [
              # InlineKeyboardButton('F-Sᴜʙ', callback_data='fsub'),
-              InlineKeyboardButton('Zara flix Admin', url=f'https://t.me/ZaraflixAdmin_Bot')
+              InlineKeyboardButton('Gʀᴏᴜᴘ Sᴇᴛᴜᴘ', url=f'https://t.me/ZaraflixAdmin_Bot')
               ], [
               InlineKeyboardButton('⋞ Back To Home', callback_data='start')
               ]]
