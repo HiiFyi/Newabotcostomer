@@ -115,8 +115,7 @@ User - {}"""
 ➩ Rᴀᴛɪɴɢ: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b><a href="https://t.me/Zaraflix">{file_name}</a></b>
-
+    FILE_CAPTION = """<blockquote><b><a href="https://t.me/Zaraflix">{file_name}</a></b></blockquote>
 <blockquote>𝙈𝙖𝙣𝙖𝙜𝙚𝙙 𝘽𝙮 ➥ <a href="https://t.me/Zaraflix">「Zaraflix」</a></blockquote>"""
     
 
