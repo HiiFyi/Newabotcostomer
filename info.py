@@ -20,7 +20,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7259766556 7348205141').split()]
 USERNAME = environ.get('USERNAME', "http://t.me/ZaraflixAdmin_Bot") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002299064076'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002642371814'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+OuVU2Bl2j8Y4Nzk1')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002148375787').split()]
 #---------------------------------------------------------------
@@ -74,7 +74,7 @@ FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f
 REFER_PICS = (environ.get("REFER_PICS", "https://files.catbox.moe/ffcudk.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/PSI.jpg')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://files.catbox.moe/ffcudk.jpg'))
-REACTIONS = ["🩵","💚","💛","🧡","🩷","💝"]
+REACTION = ["🥰","😕","😎","👍"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
